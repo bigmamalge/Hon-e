@@ -1,7 +1,8 @@
-head{
+body{
     margin: 0px;
     padding: 0%;
 }
+
 .top{
     display: flex;           /* Met les images sur la même ligne */
     justify-content: center; /* Centre horizontalement toutes les images */
@@ -9,7 +10,13 @@ head{
     background-color: #FFB100;
     height: 150px;
     gap: 85px;               /* Espace entre les images */
-    border: 0;
+   
+    
+}
+.goutte{
+  position: absolute; /*chevauchement*/
+  top: -20px;
+  width: 1400px;
     
 }
 
@@ -19,13 +26,10 @@ head{
     height: auto; 
     display: block;
 } 
-
-.alveole:after{
-    background-image: "\Hon-e-main\SAE Hön-e\image\bouton acceuil.png";
-    background-repeat: no-repeat;
-  	background-position: right;
-  	background-size: 100px;
+.alveole {
+    margin-top:30px;
 }
+
 .alveole:hover{
     cursor: pointer;
     opacity: 0.5; /* opacité normale */
@@ -37,74 +41,153 @@ head{
 }
 .fond{
     background-color: #FFF7CD;
-    height: auto;
+    height: 1200px;
     width: 100%;
     display: flex; 
     justify-content: center; 
     align-items: self-start; 
+    
 }
 
 .logo {
-    
-    align-items: center;
+    align-self: center;
     width: 800px; /* largeur maximale */
-    height: auto;     /* garde les proportions */
-    display: block;   /* parfois utile pour supprimer les petits espaces */
+    height: auto; /* garde les proportions */
+    
 }   
 
 
-#slogan {
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    color: #333333;
-    text-align: right;
-    
-}
+
 .logo-slogan {
     display: flex;
     flex-direction: column;
     align-items: right;
-    gap: 0px; /* Espace entre le logo et le slogan */
+    
+}
+.slogan2 {
+    width:1400px;
+    align-self: center;
+    
 }
 
+
 .bestsellers {
+    text-indent: 25px;
      align-items: left;
      font-family: 'Arial', sans-serif;
-     font-size: 24px;
+     font-size: 30px;
+     padding: 0;
      color: #333333;
+     margin: 0px;
+     margin-top: 50px;
+}
+
+.Documentations {
+    text-indent: 25px;
+     align-items: left;
+     font-family: 'Arial', sans-serif;
+     font-size: 30px;
+     color: #333333;
+     margin: 0px;
+     margin-top: 10px;
 }
 
 .bestproduit {
-    display: flex;           /* Met les images sur la même ligne */
+    display: flex;
+               /* Met les images sur la même ligne */
+    
     justify-content: center; /* Centre horizontalement toutes les images */
     margin: 20px;
     align-items: center;     /* Centre verticalement les images */
-    gap: 85px;               /* Espace entre les images */
+    gap: 30px;               /* Espace entre les images */
     border: 0;
+}
+.Doc {
+     display: flex;
+               /* Met les images sur la même ligne */
     
+    justify-content: center; /* Centre horizontalement toutes les images */
+    margin: 20px;
+    align-items: center;     /* Centre verticalement les images */
+    gap: 30px;               /* Espace entre les images */
+    border: 0;
+
 }
 
-.bestproduit {
+
+.biscuitbest, .elixirbest, .masquebest, .tisanebest {
+    padding: 10px;
     width: 320px;
-    
+    height: 235px;
     background-color: #e5ca8f;
-    justify-content: center;
-     align-items: center;
     border: #333333 20px;
     font-family: 'Arial', sans-serif;
     
 }
+.Gout, .Vertus, .Salon, .Conservation {
+    padding: 10px;
+    width: 320px;
+    height: 225px;
+    background-color: #d8b467;
+    border: #333333 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border-bottom: 0px;
+
+}
+
 
 
 .a {
     text-decoration: underline;
 }
+.a, .b{
+    margin : 5px;
+}
+
 
 .tisane {
+    width: 35%;
+}
+.elixir {
+    width: 50%;
+}
+.masque {
+    width: 35%;
+}
+.biscuit{
+    width: 40%;
+}
+.tisane, .masque, .biscuit, .elixir  { /*Centrer image et texte*/
     display: flex;
     margin: auto;
 }
-.tisanebest :hover{
+.pots, .medoc, .salon, .conservation  { /*Centrer image et texte*/
+    display: flex;
+    margin: auto;
+}
+
+.tisanebest:hover, .masquebest:hover, .elixirbest:hover, .biscuitbest:hover {
     cursor: pointer;
 
 }
+.bannierebas:hover{
+    cursor: pointer;
+}
+
+
+.Gout:hover, .Vertus:hover, .Salon:hover, .Conservation:hover{
+    cursor : pointer;
+}
+.bannierebas{
+    display: flex;
+    align-self: center;
+    
+    height: 300px;
+}
+
+
+
+
+
+

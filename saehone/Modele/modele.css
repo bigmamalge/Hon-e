@@ -18,9 +18,11 @@ head{
     height: 800px;
 }
 head,img#fleche, img#a, img#b, img#logo, img#c, img#d{
+    display: flex;
     width: 90px;             /* Largeur uniforme pour toutes les images */
     height: auto; 
 }
+
 img#logo{
     width: 250px; /* largeur maximale */
     height: auto;     /* garde les proportions */
