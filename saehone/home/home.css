@@ -1,130 +1,145 @@
-body{
+body {
     margin: 0px;
     padding: 0%;
 }
 
-.top{
-    display: flex;           /* Met les images sur la même ligne */
-    justify-content: center; /* Centre horizontalement toutes les images */
-    align-items: center;     /* Centre verticalement les images */
+.top {
+    display: flex;
+    justify-content: center;
+    /* Centre horizontalement toutes les images */
+    align-items: center;
+    /* Centre verticalement les images */
     background-color: #FFB100;
     height: 150px;
-    gap: 85px;               /* Espace entre les images */
-   
-    
-}
-.goutte{
-  position: absolute; /*chevauchement*/
-  top: -20px;
-  width: 1400px;
-    
+    gap: 85px;
+    /* Espace entre les images */
+
+
 }
 
-.imageretour{
+.bas {
+    display: flex;
+    /* Met les images sur la même ligne */
+    justify-content: center;
+    /* Centre horizontalement toutes les images */
+    align-items: center;
+    /* Centre verticalement les images */
+    background-color: #FFB100;
+}
+
+.goutte {
+    position: absolute;
+    /*chevauchement*/
+    top: -20px;
+    width: 1400px;
+
+}
+
+.imageretour {
     height: 100px;
     width: 100px;
-    height: auto; 
+    height: auto;
     display: block;
-} 
+}
+
 .alveole {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
-.alveole:hover{
+.alveole:hover {
     cursor: pointer;
-    opacity: 0.5; /* opacité normale */
-    transition: opacity 0.3s ease;
+    opacity: 0.5;
+    /* opacité  */
+    transition: 0.3s ease;
 }
 
-.logoc{
+.logoc {
     height: 200px;
 }
-.fond{
+
+.fond {
     background-color: #FFF7CD;
     height: 1200px;
     width: 100%;
-    display: flex; 
-    justify-content: center; 
-    align-items: self-start; 
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
-    align-self: center;
-    width: 800px; /* largeur maximale */
-    height: auto; /* garde les proportions */
-    
-}   
+    width: 800px;
+    /* largeur maximale */
+    height: auto;
+    /* garde les proportions */
+}
 
+.slogan {
+    margin-bottom: 40px;
+    width: 1400px;
+}
 
-
-.logo-slogan {
+.section {
     display: flex;
     flex-direction: column;
-    align-items: right;
-    
-}
-.slogan2 {
-    width:1400px;
-    align-self: center;
-    
+    align-items: flex-start;
 }
 
-
-.bestsellers {
+.sectiontitre {
     text-indent: 25px;
-     align-items: left;
-     font-family: 'Arial', sans-serif;
-     font-size: 30px;
-     padding: 0;
-     color: #333333;
-     margin: 0px;
-     margin-top: 50px;
-}
-
-.Documentations {
-    text-indent: 25px;
-     align-items: left;
-     font-family: 'Arial', sans-serif;
-     font-size: 30px;
-     color: #333333;
-     margin: 0px;
-     margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: #333333;
+    margin: 0px;
+    margin-top: 10px;
 }
 
 .bestproduit {
     display: flex;
-               /* Met les images sur la même ligne */
-    
-    justify-content: center; /* Centre horizontalement toutes les images */
+    /* Met les images sur la même ligne */
+
+    justify-content: center;
+    /* Centre horizontalement toutes les images */
     margin: 20px;
-    align-items: center;     /* Centre verticalement les images */
-    gap: 30px;               /* Espace entre les images */
+    align-items: center;
+    /* Centre verticalement les images */
+    gap: 30px;
+    /* Espace entre les images */
     border: 0;
 }
+
 .Doc {
-     display: flex;
-               /* Met les images sur la même ligne */
-    
-    justify-content: center; /* Centre horizontalement toutes les images */
+    display: flex;
+    /* Met les images sur la même ligne */
+
+    justify-content: center;
+    /* Centre horizontalement toutes les images */
     margin: 20px;
-    align-items: center;     /* Centre verticalement les images */
-    gap: 30px;               /* Espace entre les images */
+    align-items: center;
+    /* Centre verticalement les images */
+    gap: 30px;
+    /* Espace entre les images */
     border: 0;
 
 }
 
 
-.biscuitbest, .elixirbest, .masquebest, .tisanebest {
+.biscuitbest,
+.elixirbest,
+.masquebest,
+.tisanebest {
     padding: 10px;
     width: 320px;
     height: 235px;
     background-color: #e5ca8f;
     border: #333333 20px;
     font-family: 'Arial', sans-serif;
-    
+
 }
-.Gout, .Vertus, .Salon, .Conservation {
+
+.Gout,
+.Vertus,
+.Salon,
+.Conservation {
     padding: 10px;
     width: 320px;
     height: 225px;
@@ -141,53 +156,68 @@ body{
 .a {
     text-decoration: underline;
 }
-.a, .b{
-    margin : 5px;
+
+.a,
+.b {
+    margin: 5px;
 }
 
 
 .tisane {
     width: 35%;
 }
+
 .elixir {
     width: 50%;
 }
+
 .masque {
     width: 35%;
 }
-.biscuit{
+
+.biscuit {
     width: 40%;
 }
-.tisane, .masque, .biscuit, .elixir  { /*Centrer image et texte*/
+
+.tisane,
+.masque,
+.biscuit,
+.elixir {
+    /*Centrer image et texte*/
     display: flex;
     margin: auto;
 }
-.pots, .medoc, .salon, .conservation  { /*Centrer image et texte*/
+
+.pots,
+.medoc,
+.salon,
+.conservation {
+    /*Centrer image et texte*/
     display: flex;
     margin: auto;
 }
 
-.tisanebest:hover, .masquebest:hover, .elixirbest:hover, .biscuitbest:hover {
+.tisanebest:hover,
+.masquebest:hover,
+.elixirbest:hover,
+.biscuitbest:hover {
     cursor: pointer;
-
 }
-.bannierebas:hover{
+
+.bannierebas:hover {
     cursor: pointer;
 }
 
 
-.Gout:hover, .Vertus:hover, .Salon:hover, .Conservation:hover{
-    cursor : pointer;
+.Gout:hover,
+.Vertus:hover,
+.Salon:hover,
+.Conservation:hover {
+    cursor: pointer;
 }
-.bannierebas{
+
+.bannierebas {
     display: flex;
     align-self: center;
-    
     height: 300px;
 }
-
-
-
-
-
-
