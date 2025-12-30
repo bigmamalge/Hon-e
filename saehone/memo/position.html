@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    <nav id="d">
+        FIXED : Je reste toujours en haut, même si tu scrolles.
+    </nav>
+
+    <div class="container">
+        
+        <section id="a">
+            STATIC : Je suis le flux normal. Je n'écoute pas top/left.
+        </section>
+
+        <div id="e">
+            STICKY : Je suis normal, puis je "colle" au top: 60px quand on scrolle.
+        </div>
+
+        <section id="b">
+            RELATIVE : Je suis décalé de 20px. 
+            <br><strong>Je sers de repère pour mon enfant en rouge.</strong>
+            
+            <div id="c">
+                ABSOLUTE : Je flotte au bord de mon parent bleu.
+            </div>
+        </section>
+    
+        <div class="spacer">Scroll pour voir l'effet du Sticky et du Fixed...</div>
+    </div>
+    
+    
+
+</body>
+</html>

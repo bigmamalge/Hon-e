@@ -9,13 +9,12 @@ body {
     /* Centre horizontalement toutes les images */
     align-items: center;
     /* Centre verticalement les images */
-    background-color: #FFB100;
+    background-color: #FFB100 ;
     height: 150px;
-    gap: 85px;
-    /* Espace entre les images */
-
-
+    justify-content: space-around;
+    /* Espace entre les images */ 
 }
+
 
 .bas {
     display: flex;
@@ -55,6 +54,7 @@ body {
 
 .logoc {
     height: 200px;
+    margin-top: 30px;
 }
 
 .fond {

@@ -1,0 +1,19 @@
+
+
+h2::first-line{
+    color: blueviolet;
+    background-color: yellow;
+}
+
+p {
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+    font-size: 20px;
+}
+
+p::before {
+    content: "💡 ";
+}
+
+p::after {
+    content: " ✅";
+}
