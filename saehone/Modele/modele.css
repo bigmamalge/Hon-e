@@ -1,67 +1,129 @@
-head{
+body {
     margin: 0px;
     padding: 0%;
 }
-.top{
-    display: flex;           /* Met les images sur la même ligne */
-    justify-content: center; /* Centre horizontalement toutes les images */
-    align-items: center;     /* Centre verticalement les images */
-    background-color: #FFB100;
-    height: 150px;
-    gap: 85px;               /* Espace entre les images */
-    border: 0;
-    
-}
 
-.fond{
-    background-color: #FFF7CD;
-    height: 800px;
-}
-head,img#fleche, img#a, img#b, img#logo, img#c, img#d{
+.top {
     display: flex;
-    width: 90px;             /* Largeur uniforme pour toutes les images */
-    height: auto; 
+    justify-content: center;
+    /* Centre horizontalement toutes les images */
+    align-items: center;
+    /* Centre verticalement les images */
+    background-color: #FFB100 ;
+    height: 150px;
+    justify-content: space-around;
+    /* Espace entre les images */ 
 }
 
-img#logo{
-    width: 250px; /* largeur maximale */
-    height: auto;     /* garde les proportions */
+
+
+
+.goutte {
+    position: absolute;
+    /*chevauchement*/
+    top: -20px;
+    width: 1400px;
+
+}
+
+.imageretour {
+    height: 100px;
+    width: 100px;
+    height: auto;
     display: block;
 }
-img#fleche{
-    width: 100px; /* largeur maximale */
-    height: auto;     /* garde les proportions */
-    display: block;
+
+.alveole {
+    margin-top: 30px;
 }
 
-.fond{
-    width: 100%;
-    display: flex;           /* active Flexbox */
-    justify-content: center; /* centre horizontalement */
-    align-items: self-start;     /* centre verticalement */
-}
-.logo {
-    width: 800px; /* largeur maximale */
-    height: auto;     /* garde les proportions */
-    display: block;   /* parfois utile pour supprimer les petits espaces */
-}   
-
-.top img#a:hover,img#b:hover , img#c:hover, img#d:hover {
+.alveole:hover {
     cursor: pointer;
-    
-    opacity: 0.5;                     /* opacité normale */
-    transition: opacity 0.3s ease;
+    opacity: 0.5;
+    /* opacité  */
+    transition: 0.3s ease;
 }
-#slogan {
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    color: #333333;
-    text-align: right;
-    
+
+.logoc {
+    height: 200px;
+    margin-top: 30px;
 }
-.logo-slogan {
+
+.fond {
+    background-color: #FFF7CD;
+    height: 1200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: right;
-    gap: 0px; /* Espace entre le logo et le slogan */
+    align-items: center;
+}
+
+.logo {
+    width: 800px;
+    /* largeur maximale */
+    height: auto;
+    /* garde les proportions */
+}
+
+.slogan {
+    margin-bottom: 40px;
+    width: 1400px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sectiontitre {
+    text-indent: 25px;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: #333333;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+
+.bas {
+    position: relative;
+    width: 100%;
+}
+
+.bannierebas {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+
+.div1bas {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.div2bas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textbas {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.imagebas{
+    width: 80%;
 }
