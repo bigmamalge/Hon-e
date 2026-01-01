@@ -9,10 +9,10 @@ body {
     /* Centre horizontalement toutes les images */
     align-items: center;
     /* Centre verticalement les images */
-    background-color: #FFB100 ;
+    background-color: #FFB100;
     height: 150px;
     justify-content: space-around;
-    /* Espace entre les images */ 
+    /* Espace entre les images */
 }
 
 .goutte {
@@ -20,7 +20,6 @@ body {
     /*chevauchement*/
     top: -20px;
     width: 1400px;
-
 }
 
 .imageretour {
@@ -111,7 +110,6 @@ body {
 
 }
 
-
 .biscuitbest,
 .elixirbest,
 .masquebest,
@@ -139,8 +137,6 @@ body {
     border-bottom: 0px;
 
 }
-
-
 
 .a {
     text-decoration: underline;
@@ -213,7 +209,7 @@ body {
 .bannierebas {
     width: 100%;
     height: auto;
-    display: block; 
+    display: block;
 }
 
 
@@ -223,6 +219,7 @@ body {
     justify-content: left;
     align-items: left;
 }
+
 .div2bas {
     position: absolute;
     top: 0;
@@ -242,6 +239,6 @@ body {
     color: black;
 }
 
-.imagebas{
+.imagebas {
     width: 80%;
 }
