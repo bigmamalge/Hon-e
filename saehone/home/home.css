@@ -234,7 +234,9 @@ body {
 }
 
 .textbas {
-    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.0em;
+    line-height: 1.5em;
     text-decoration: none;
     color: black;
 }
