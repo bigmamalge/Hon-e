@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+    padding: 0%;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    /* Centre horizontalement toutes les images */
+    align-items: center;
+    /* Centre verticalement les images */
+    background-color: #FFB100 ;
+    height: 150px;
+    justify-content: space-around;
+    /* Espace entre les images */ 
+}
+
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin: 50px 75px 50px ;
+    font-size: 4rem;
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin: 15px 75px 15px ;
+    font-size: 2rem;
+}
+
+h3{ 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin: 10px 75px 10px ;
+}
+
+.goutte {
+    position: absolute;
+    /*chevauchement*/
+    top: -20px;
+    width: 1400px;
+
+}
+
+.imageretour {
+    height: 100px;
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.alveole {
+    margin-top: 30px;
+}
+
+.alveole:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    /* opacité  */
+    transition: 0.3s ease;
+}
+
+.logoc {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.fond {
+    background-color: #FFF7CD;
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.fond h1 h2 h3 {
+    font-weight: 800;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0 0 0.5rem 0;
+}
+
+.fond .overlay {
+  position: absolute;
+  height: auto;
+  z-index: 2;
+  pointer-events: none; /* l’image ne bloque pas les clics */
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15)); /* optionnel */
+  opacity: 0.95;
+  
+
+}
+
+.overlay-1 {
+  right: 1.5rem;
+  top: 30%;
+  width: 22rem;
+  transform: translateY(-20%);
+}
+
+.overlay-2 {
+  right: 4rem;
+  top: 75%;
+  width: 15rem;
+  transform: translateY(-55%);
+}
+
+.overlay-3 {
+  right: 6rem;
+  top: 95%;  
+  width: 12rem;
+}
+
+
+.logo {
+    width: 800px;
+    /* largeur maximale */
+    height: auto;
+    /* garde les proportions */
+}
+
+.slogan {
+    margin-bottom: 40px;
+    width: 1400px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sectiontitre {
+    text-indent: 25px;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: #333333;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+
+.bas {
+    position: relative;
+    width: 100%;
+}
+
+.bannierebas {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+
+.div1bas {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.div2bas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textbas {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.imagebas{
+    width: 80%;
+}
