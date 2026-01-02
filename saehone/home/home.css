@@ -29,11 +29,15 @@ body {
     display: block;
 }
 
-.alveole {
+.alveole, .alveoleaccueil {
     margin-top: 30px;
 }
+.alveoleaccueil{ /*new*/
+   opacity: 0.5;
+    /* opacité  */ 
+}
 
-.alveole:hover {
+.alveole:hover, .alveoleaccueil:hover {
     cursor: pointer;
     opacity: 0.5;
     /* opacité  */
