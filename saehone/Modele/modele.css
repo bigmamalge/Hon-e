@@ -88,11 +88,13 @@ body {
 
 
 .bas {
+    
     position: relative;
     width: 100%;
 }
 
 .bannierebas {
+    
     width: 100%;
     height: auto;
     display: block; 
@@ -100,12 +102,14 @@ body {
 
 
 .div1bas {
+    
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
 }
 .div2bas {
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -119,7 +123,9 @@ body {
 }
 
 .textbas {
-    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.0em;
+    line-height: 1.5em;
     text-decoration: none;
     color: black;
 }
