@@ -4,6 +4,10 @@ body {
 }
 .barre {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index : 1000;
 }
 
 .top {
@@ -14,30 +18,10 @@ body {
     /* Centre verticalement les images */
     background-color: #FFB100 ;
     height: 150px;
-    width: 150%;
+    width: 100%;
     justify-content: space-around;
     /* Espace entre les images */ 
-}
-
-
-h1{
-    font-family:"Comic Sans MS", "Comic Sans", cursive;
-    text-align: left;
-    margin: 50px 75px 50px ;
-    font-size: 4rem;
-}
-
-h2{
-    font-family:"Comic Sans MS", "Comic Sans", cursive;
-    text-align: left;
-    margin: 15px 75px 15px ;
-    font-size: 2rem;
-}
-
-h3{ 
-    font-family:'Arial', sans-serif;
-    text-align: left;
-    margin: 10px 75px 10px ;
+    
 }
 
 .goutte {
@@ -78,49 +62,77 @@ h3{
 
 .fond {
     background-color: #FFF7CD;
-    height: 1400px;
+    height: 1700px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: right;
-    box-sizing: border-box;
+    align-items: flex-start;
 }
 
-.fond h1 h2 h3 {
-    font-weight: 800;
-    font-size: clamp(2rem, 4vw, 3rem);
-    margin: 0 0 0.5rem 0;
+
+.naturelleclass {
+    position: absolute;
+    top : 250px;
+    
+    
+}
+.naturalifeclass {
+    position: absolute;
+    top : 700px;
+}
+.naturebioclass {
+    position: absolute;
+    top : 1100px;
 }
 
-.fond .overlay {
-  position: absolute;
-  height: auto;
-  z-index: 2;
-  pointer-events: none; /* l’image ne bloque pas les clics */
-  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15)); /* optionnel */
-  opacity: 0.95;
-  
-
+h1{
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    text-align: left;
+    margin-top: 160px;
+    margin-bottom:5px ;
+    margin-left: 75px ;
+    font-size: 4rem;
 }
 
-.overlay-1 {
-  right: 1.5rem;
-  top: 30%;
-  width: 22rem;
-  transform: translateY(-20%);
+h2{
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom:15px ;
+    margin-left: 15px;
+    font-size: 2rem;
 }
 
-.overlay-2 {
-  right: 4rem;
-  top: 75%;
-  width: 15rem;
-  transform: translateY(-55%);
+h3{ 
+    font-family:'Arial', sans-serif;
+    text-align: left;
+    margin: 10px 75px 10px ;
 }
 
-.overlay-3 {
-  right: 6rem;
-  top: 95%;  
-  width: 12rem;
+
+
+.naturelle {
+    position: static;
+    z-index: 1;
+    margin-top: -200px;
+    margin-left: 900px;
+    width: 12%;
+}
+
+.naturalife {
+  position: static;
+    z-index: 1;
+    margin-top: -220px;
+    margin-left: 1000px;
+    width: 20%;
+}
+
+.naturebio {
+  position: static;
+    z-index: 1;
+    margin-top: -160px;
+    margin-left: 900px;
+    width: 15%;
 }
 
 

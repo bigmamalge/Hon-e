@@ -4,18 +4,24 @@ body {
 }
 .barre {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index : 1000;
 }
+
 .top {
     display: flex;
     justify-content: center;
     /* Centre horizontalement toutes les images */
     align-items: center;
     /* Centre verticalement les images */
-    background-color: #FFB100;
+    background-color: #FFB100 ;
     height: 150px;
-    width: 150%;
+    width: 100%;
     justify-content: space-around;
-    /* Espace entre les images */
+    /* Espace entre les images */ 
+    
 }
 
 .goutte {
@@ -86,7 +92,7 @@ body {
 
 .fond {
     background-color: #FFF7CD;
-    height: 1700px;
+    height: 1800px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -95,7 +101,7 @@ body {
 
 .logo {
     position: static;
-    top : 100px;
+    margin-top: 100px;
     width: 700px;
     /* largeur maximale */
     height: auto;

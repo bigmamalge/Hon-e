@@ -4,6 +4,10 @@ body {
 }
 .barre {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index : 1000;
 }
 
 .top {
@@ -12,11 +16,12 @@ body {
     /* Centre horizontalement toutes les images */
     align-items: center;
     /* Centre verticalement les images */
-    background-color: #FFB100;
+    background-color: #FFB100 ;
     height: 150px;
-    width: 150%;
+    width: 100%;
     justify-content: space-around;
-    /* Espace entre les images */
+    /* Espace entre les images */ 
+    
 }
 
 .goutte {
