@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0%;
 }
+/*Ensemble des elements de la barre de navigation */
 .barre {
     position: fixed;
     top: 0;
@@ -12,16 +13,11 @@ body {
 
 .top {
     display: flex;
-    justify-content: center;
-    /* Centre horizontalement toutes les images */
+    justify-content: space-around;
     align-items: center;
-    /* Centre verticalement les images */
     background-color: #FFB100 ;
     height: 150px;
-    width: 100%;
-    justify-content: space-around;
-    /* Espace entre les images */ 
-    
+    width: 100%; 
 }
 
 .goutte {
@@ -89,7 +85,7 @@ body {
     margin-left: 20px;
 }
 
-
+/*Contenu de la page*/
 .fond {
     background-color: #FFF7CD;
     height: 1800px;

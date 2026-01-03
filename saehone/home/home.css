@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0%;
 }
+/*Ensemble des elements de la barre de navigation */
 .barre {
     position: fixed;
     top: 0;
@@ -12,21 +13,15 @@ body {
 
 .top {
     display: flex;
-    justify-content: center;
-    /* Centre horizontalement toutes les images */
+    justify-content: space-around;
     align-items: center;
-    /* Centre verticalement les images */
     background-color: #FFB100 ;
     height: 150px;
-    width: 100%;
-    justify-content: space-around;
-    /* Espace entre les images */ 
-    
+    width: 100%; 
 }
 
 .goutte {
     position: absolute;
-    /*chevauchement*/
     top: -20px;
     width: 1400px;
 }
@@ -41,15 +36,15 @@ body {
 .alveole, .alveoleaccueil {
     margin-top: 30px;
 }
-.alveoleaccueil{ /*new*/
+.alveoleaccueil{ 
    opacity: 0.5;
-    /* opacité  */ 
+    
 }
 
 .alveole:hover, .alveoleaccueil:hover {
     cursor: pointer;
     opacity: 0.5;
-    /* opacité  */
+    
     transition: 0.3s ease;
 }
 
@@ -58,6 +53,7 @@ body {
     margin-top: 30px;
 }
 
+/*Contenu de la page*/
 .fond {
     background-color: #FFF7CD;
     height: 1300px;
@@ -69,10 +65,8 @@ body {
 
 .logo {
     margin-top: 120px;
-    width: 800px;
-    /* largeur maximale */
+    width: 800px; 
     height: auto;
-    /* garde les proportions */
 }
 
 .slogan {
@@ -95,35 +89,17 @@ body {
     margin-top: 10px;
 }
 
-.bestproduit {
+.bestproduit, .Doc {
     display: flex;
-    /* Met les images sur la même ligne */
-
     justify-content: center;
-    /* Centre horizontalement toutes les images */
     margin: 20px;
     align-items: center;
-    /* Centre verticalement les images */
     gap: 30px;
-    /* Espace entre les images */
     border: 0;
 }
 
-.Doc {
-    display: flex;
-    /* Met les images sur la même ligne */
 
-    justify-content: center;
-    /* Centre horizontalement toutes les images */
-    margin: 20px;
-    align-items: center;
-    /* Centre verticalement les images */
-    gap: 30px;
-    /* Espace entre les images */
-    border: 0;
-
-}
-
+/*block des bestproduit*/
 .biscuitbest,
 .elixirbest,
 .masquebest,
@@ -134,9 +110,8 @@ body {
     background-color: #e5ca8f;
     border: #333333 20px;
     font-family: 'Arial', sans-serif;
-
 }
-
+/*block des documents*/
 .Gout,
 .Vertus,
 .Salon,
@@ -149,19 +124,18 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     border-bottom: 0px;
-
 }
 
+/*texte de description */
 .a {
     text-decoration: underline;
 }
-
 .a,
 .b {
     margin: 5px;
 }
 
-
+/*images*/
 .tisane {
     width: 35%;
 }
@@ -181,33 +155,20 @@ body {
 .tisane,
 .masque,
 .biscuit,
-.elixir {
-    /*Centrer image et texte*/
-    display: flex;
-    margin: auto;
-}
-
+.elixir,
 .pots,
 .medoc,
 .salon,
-.conservation {
-    /*Centrer image et texte*/
+.conservation  {
     display: flex;
     margin: auto;
 }
 
+/*hover des blocks*/
 .tisanebest:hover,
 .masquebest:hover,
 .elixirbest:hover,
-.biscuitbest:hover {
-    cursor: pointer;
-}
-
-.bannierebas:hover {
-    cursor: pointer;
-}
-
-
+.biscuitbest:hover,
 .Gout:hover,
 .Vertus:hover,
 .Salon:hover,
@@ -215,38 +176,38 @@ body {
     cursor: pointer;
 }
 
+
+/*Banniere du bas*/
 .bas {
     position: relative;
     width: 100%;
 }
-
+/*image de fond*/
 .bannierebas {
     max-width: 230%; 
     height: auto;
     display: block;
 }
-
-
-.div1bas {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
+.bannierebas:hover {
+    cursor: pointer;
 }
-
 .div2bas {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-
+.div1bas {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
 .textbas {
     font-family: 'Arial', sans-serif;
     font-size: 2.0em;
@@ -254,7 +215,6 @@ body {
     text-decoration: none;
     color: black;
 }
-
 .imagebas {
     width: 80%;
 }
