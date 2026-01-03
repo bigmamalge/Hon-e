@@ -2,22 +2,23 @@ body {
     margin: 0px;
     padding: 0%;
 }
+
 /*Ensemble des elements de la barre de navigation */
 .barre {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;  
-    z-index : 1000;
+    width: 100%;
+    z-index: 1000;
 }
 
 .top {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFB100 ;
+    background-color: #FFB100;
     height: 150px;
-    width: 100%; 
+    width: 100%;
 }
 
 .goutte {
@@ -66,10 +67,11 @@ body {
 }
 
 .bannierebas {
-    max-width: 200%; 
+    max-width: 200%;
     height: auto;
-    display: block; 
+    display: block;
 }
+
 .div2bas {
     position: absolute;
     top: 0;
@@ -98,6 +100,6 @@ body {
     color: black;
 }
 
-.imagebas{
+.imagebas {
     width: 80%;
 }

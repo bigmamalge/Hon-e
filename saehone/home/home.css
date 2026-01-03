@@ -2,22 +2,23 @@ body {
     margin: 0px;
     padding: 0%;
 }
+
 /*Ensemble des elements de la barre de navigation */
 .barre {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;  
-    z-index : 1000;
+    width: 100%;
+    z-index: 1000;
 }
 
 .top {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFB100 ;
+    background-color: #FFB100;
     height: 150px;
-    width: 100%; 
+    width: 100%;
 }
 
 .goutte {
@@ -33,18 +34,21 @@ body {
     display: block;
 }
 
-.alveole, .alveoleaccueil {
+.alveole,
+.alveoleaccueil {
     margin-top: 30px;
 }
-.alveoleaccueil{ 
-   opacity: 0.5;
-    
+
+.alveoleaccueil {
+    opacity: 0.5;
+
 }
 
-.alveole:hover, .alveoleaccueil:hover {
+.alveole:hover,
+.alveoleaccueil:hover {
     cursor: pointer;
     opacity: 0.5;
-    
+
     transition: 0.3s ease;
 }
 
@@ -65,7 +69,7 @@ body {
 
 .logo {
     margin-top: 120px;
-    width: 800px; 
+    width: 800px;
     height: auto;
 }
 
@@ -89,7 +93,8 @@ body {
     margin-top: 10px;
 }
 
-.bestproduit, .Doc {
+.bestproduit,
+.Doc {
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -111,6 +116,7 @@ body {
     border: #333333 20px;
     font-family: 'Arial', sans-serif;
 }
+
 /*block des documents*/
 .Gout,
 .Vertus,
@@ -130,6 +136,7 @@ body {
 .a {
     text-decoration: underline;
 }
+
 .a,
 .b {
     margin: 5px;
@@ -159,7 +166,7 @@ body {
 .pots,
 .medoc,
 .salon,
-.conservation  {
+.conservation {
     display: flex;
     margin: auto;
 }
@@ -182,15 +189,18 @@ body {
     position: relative;
     width: 100%;
 }
+
 /*image de fond*/
 .bannierebas {
-    max-width: 230%; 
+    max-width: 230%;
     height: auto;
     display: block;
 }
+
 .bannierebas:hover {
     cursor: pointer;
 }
+
 .div2bas {
     position: absolute;
     top: 0;
@@ -202,12 +212,14 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 .div1bas {
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
 }
+
 .textbas {
     font-family: 'Arial', sans-serif;
     font-size: 2.0em;
@@ -215,6 +227,7 @@ body {
     text-decoration: none;
     color: black;
 }
+
 .imagebas {
     width: 80%;
 }

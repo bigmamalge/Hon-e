@@ -2,27 +2,27 @@ body {
     margin: 0px;
     padding: 0%;
 }
+
 /*Ensemble des elements de la barre de navigation */
 .barre {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;  
-    z-index : 1000;
+    width: 100%;
+    z-index: 1000;
 }
 
 .top {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFB100 ;
+    background-color: #FFB100;
     height: 150px;
-    width: 100%; 
+    width: 100%;
 }
 
 .goutte {
     position: absolute;
-    /*chevauchement*/
     top: -20px;
     width: 1400px;
 }
@@ -34,19 +34,19 @@ body {
     display: block;
 }
 
-.alveole, .alveoleproduit {
+.alveole,
+.alveoleproduit {
     margin-top: 30px;
 }
-.alveoleproduit{ /*new*/
+
+.alveoleproduit {
     opacity: 0.5;
-    /* opacité  */
-    
 }
 
-.alveole:hover, .alveoleproduit:hover {
+.alveole:hover,
+.alveoleproduit:hover {
     cursor: pointer;
     opacity: 0.5;
-    /* opacité  */
     transition: 0.3s ease;
 }
 
@@ -67,20 +67,23 @@ body {
     position: absolute;
     display: inline-block;
 }
+
 .dropdown-child {
     display: none;
     background-color: #d8b467;
     min-width: 170px;
 }
+
 .dropdown-child a {
-    font-family:'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     color: black;
     padding: 20px;
     text-decoration: none;
     display: block;
 }
+
 .dropdown:hover .dropdown-child {
-    top : 230px;
+    top: 230px;
     display: block;
     margin-left: 20px;
 }
@@ -99,24 +102,17 @@ body {
     position: static;
     margin-top: 100px;
     width: 700px;
-    /* largeur maximale */
     height: auto;
-    /* garde les proportions */
 }
 
 .slogan {
     position: static;
-    top : 400px;
+    top: 400px;
     margin-bottom: 40px;
     width: 1100px;
 }
 
-.section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
+/*titre*/
 .sectiontitre {
     text-indent: 0px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -126,22 +122,25 @@ body {
     margin-top: 10px;
 }
 
+/*gestion de chaque ligne de produits*/
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*Ensemble des produits*/
 .tousproduit {
     display: flex;
-    /* Met les images sur la même ligne */
-    
     justify-content: center;
-    /* Centre horizontalement toutes les images */
     margin: 20px;
     align-items: center;
-    /* Centre verticalement les images */
     gap: 30px;
-    /* Espace entre les images */
     border: 0;
 }
 
 
-
+/*block de chaque produits*/
 .biscuitbest,
 .elixirbest,
 .masquebest,
@@ -158,11 +157,10 @@ body {
     background-color: white;
     border: #333333 20px;
     font-family: 'Arial', sans-serif;
-
 }
 
- 
 
+/*textes des produits*/
 .a {
     text-decoration: underline;
 }
@@ -170,14 +168,14 @@ body {
 .a,
 .b {
     margin: 5px;
-    text-align:left;
+    text-align: left;
 }
+
 #text {
     margin-top: 55px;
 }
 
-
-
+/*images des produits*/
 .siropimage {
     width: 70%;
 }
@@ -193,12 +191,15 @@ body {
 .biscuit {
     width: 75%;
 }
+
 .tisaneimage {
     width: 70%;
 }
+
 .compimage {
     width: 70%;
 }
+
 .mielimage {
     width: 90%;
 }
@@ -210,7 +211,6 @@ body {
 .biscuit,
 .mielimage,
 .elixir {
-    /*Centrer image et texte*/
     display: flex;
     margin: auto;
 }
@@ -226,11 +226,7 @@ body {
 }
 
 
-
-
-
-
-
+/*Banniere du bas*/
 .bannierebas:hover {
     cursor: pointer;
 }
@@ -242,17 +238,9 @@ body {
 }
 
 .bannierebas {
-    max-width: 230%; 
+    max-width: 230%;
     height: auto;
     display: block;
-}
-
-
-.div1bas {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
 }
 
 .div2bas {
@@ -266,6 +254,13 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.div1bas {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
 }
 
 .textbas {
