@@ -2,7 +2,9 @@ body {
     margin: 0px;
     padding: 0%;
 }
-
+.barre {
+    position: fixed;
+}
 .top {
     display: flex;
     justify-content: center;
@@ -11,6 +13,7 @@ body {
     /* Centre verticalement les images */
     background-color: #FFB100;
     height: 150px;
+    width: 150%;
     justify-content: space-around;
     /* Espace entre les images */
 }
@@ -50,6 +53,36 @@ body {
     margin-top: 30px;
 }
 
+/*Menu deroulant */
+.mainmenubtn {
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #d8b467;
+    min-width: 170px;
+}
+.dropdown-child a {
+    font-family:'Arial', sans-serif;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    top : 230px;
+    display: block;
+    margin-left: 20px;
+}
+
 
 .fond {
     background-color: #FFF7CD;
@@ -61,7 +94,7 @@ body {
 }
 
 .logo {
-    position: absolute;
+    position: static;
     top : 100px;
     width: 700px;
     /* largeur maximale */
@@ -70,14 +103,12 @@ body {
 }
 
 .slogan {
-    position: absolute;
+    position: static;
     top : 400px;
     margin-bottom: 40px;
     width: 1100px;
 }
-.element {
-    margin-top: 300px;
-}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -191,6 +222,8 @@ body {
 .tisane:hover {
     cursor: pointer;
 }
+
+
 
 
 
