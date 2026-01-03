@@ -71,18 +71,17 @@ body {
 
 
 .naturelleclass {
-    position: absolute;
-    top : 250px;
-    
-    
+    position: relative;
+    top : 20px;    
 }
+
 .naturalifeclass {
-    position: absolute;
-    top : 700px;
+    position: relative;
+    top : 100px;
 }
 .naturebioclass {
-    position: absolute;
-    top : 1100px;
+    position: relative;
+    top : 150px;
 }
 
 h1{
@@ -99,19 +98,23 @@ h2{
     text-align: left;
     margin-top: 35px;
     margin-bottom:15px ;
-    margin-left: 15px;
+    margin-left: 75px;
     font-size: 2rem;
 }
 
 h3{ 
     font-family:'Arial', sans-serif;
     text-align: left;
-    margin: 10px 75px 10px ;
+   
+    margin-top: 10px;
+    margin-bottom:10px ;
+    margin-left: 75px;
 }
 
 
 
 .naturelle {
+    
     position: static;
     z-index: 1;
     margin-top: -200px;
@@ -120,19 +123,25 @@ h3{
 }
 
 .naturalife {
+   
   position: static;
     z-index: 1;
+    
+    max-width: 300px;   
+    margin-left: 1000px; 
+    margin-right: 5vw; 
     margin-top: -220px;
-    margin-left: 1000px;
     width: 20%;
 }
 
 .naturebio {
+    
   position: static;
     z-index: 1;
-    margin-top: -160px;
+    max-width: 300px; 
+    margin-top: -200px;
     margin-left: 900px;
-    width: 15%;
+    width: 20%;
 }
 
 
@@ -171,7 +180,7 @@ h3{
 }
 
 .bannierebas {
-    width: 100%;
+    max-width: 100%;   
     height: auto;
     display: block; 
 }
@@ -197,7 +206,9 @@ h3{
 }
 
 .textbas {
-    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.0em;
+    line-height: 1.5em;
     text-decoration: none;
     color: black;
 }
